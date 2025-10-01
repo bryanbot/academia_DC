@@ -1,4 +1,4 @@
-# 🚀 Proyectos y Ejercicios Incluidos
+# 🚀 Proyectos y ejercicios incluidos
 
 A continuación se detalla la estructura y el contenido de los scripts principales de generación de archivos:
 
