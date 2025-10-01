@@ -290,5 +290,7 @@ def crear_archivo_longitud_fija(nombre_archivo):
 
 # --- Ejecutar el programa ---
 if __name__ == "__main__":
-    nombre_archivo_salida = 'input_transaction.txt'
+    today = datetime.now().replace(day=1, hour=0, minute=0, second=0, microsecond=0).strftime('%Y%m')
+    today_int = int(today) - 1
+    nombre_archivo_salida = 'FAT_' + str(today_int) + '_training.csv'
     crear_archivo_longitud_fija(nombre_archivo_salida)
